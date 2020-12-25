@@ -53,7 +53,9 @@ section{
 .nav-right li a:visited{
     color:#8d8d8d;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
     transition: color 0.2s;
+    transition: border 0.2s;
 }
 
 .nav-left li a:hover,
@@ -61,6 +63,7 @@ section{
 .nav-left li a:active,
 .nav-right li a:active{
     color: rgb(19, 18, 18);
+    border-bottom: 2px solid #e67e22;
 }
 
 .nav-left,
