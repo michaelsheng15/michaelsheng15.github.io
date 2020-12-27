@@ -25,10 +25,22 @@ section{
     padding:80px 0;
 }
 
+h1{
+    font-size: 400%;
+    font-weight: 200%;
+    color: #000;
+}
+
 
 /*--------------------------------------*/
 /*HEADER*/
 /*--------------------------------------*/
+header{
+    background-image:  url(img/circle.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 
 .nav-container{
     display: flex;
@@ -45,17 +57,19 @@ section{
 .nav-right li{
     display: inline-block;
     padding: 22px 10px;
+    margin: 0 10px;
 }
 
 .nav-left li a:link,
 .nav-right li a:link,
 .nav-left li a:visited,
 .nav-right li a:visited{
-    color:#8d8d8d;
+    color:#bbbbbb;
+    font-weight: 50%;
     text-decoration: none;
     border-bottom: 2px solid transparent;
-    transition: color 0.2s;
-    transition: border 0.2s;
+    transition: color 0.5s;
+    transition: border 0.5s;
 }
 
 .nav-left li a:hover,
@@ -63,7 +77,7 @@ section{
 .nav-left li a:active,
 .nav-right li a:active{
     color: rgb(19, 18, 18);
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #0044FF;
 }
 
 .nav-left,
@@ -76,8 +90,11 @@ section{
     height: auto;
     width: 60px;
     padding-top:8px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10%;
-}
 
+}
+.header-textbox{
+    position:absolute;
+    width:1140;
+    top:15%;
+    left: 38%;
+}
