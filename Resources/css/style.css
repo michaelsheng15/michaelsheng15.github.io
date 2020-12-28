@@ -28,43 +28,61 @@ section{
 h1{
     font-size: 400%;
     font-weight: 200%;
-    color: #000;
+    color: #fff;
 }
 
+ion-icon{
+    font-size: 25px;
+}
 
 /*--------------------------------------*/
 /*HEADER*/
 /*--------------------------------------*/
 header{
-    background-image:  url(img/circle.svg);
+    background-image:  url(img/background1.svg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
 .nav-container{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+
+.container-wrap{
+    display: inline-flex;
+    border: 3px solid #668FFF;
+    background-color: #fff;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 20px;
+    width: 30%;
+
 }
 
 .nav-container div {
-    margin-top: 30px;
-    margin-bottom: 5px;
     font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .nav-left li,
 .nav-right li{
     display: inline-block;
-    padding: 22px 10px;
-    margin: 0 10px;
+    padding: 20px 27px;
 }
 
 .nav-left li a:link,
 .nav-right li a:link,
 .nav-left li a:visited,
 .nav-right li a:visited{
-    color:#bbbbbb;
+    color:rgb(150, 150, 150);
     font-weight: 50%;
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -76,8 +94,8 @@ header{
 .nav-right li a:hover,
 .nav-left li a:active,
 .nav-right li a:active{
-    color: rgb(19, 18, 18);
-    border-bottom: 2px solid #0044FF;
+    color: rgb(103, 104, 148);
+    border-bottom: 2px solid #668FFF;
 }
 
 .nav-left,
@@ -85,16 +103,68 @@ header{
     list-style: none;
 }
 
-
 .logo img{
     height: auto;
     width: 60px;
     padding-top:8px;
+}
+
+.header-textbox{
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.header-textbox h1{
+    text-align: center;
+}
+
+.header-container{
+    width: 650px;
+    height: 450px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
 
 }
-.header-textbox{
-    position:absolute;
-    width:1140;
-    top:15%;
-    left: 38%;
+
+.img-container{
+    text-align: center;
+}
+
+.img-container img{
+    position: absolute;    
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 400px;
+}
+
+.logo-container div{
+    align-self: flex-end;
+    padding: 0 25px;
+    padding-bottom: 10px;
+}
+
+.logo-container div:link,
+.logo-container div:visited{
+    color:rgb(160, 160, 160);
+    transition: color 0.2s;
+}
+
+.logo-container div:hover,
+.logo-container div:active{
+    color: #000;
+}
+
+
+/*--------------------------------------*/
+/*ABOUT ME*/
+/*--------------------------------------*/
+
+.about-me{
+    height: 1000px;
 }
