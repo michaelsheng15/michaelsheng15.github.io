@@ -43,6 +43,8 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed
+
 }
 
 .nav-container{
@@ -85,17 +87,21 @@ header{
     color:rgb(150, 150, 150);
     font-weight: 50%;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: color 0.5s;
-    transition: border 0.5s;
+    border: 2px solid transparent;
+    transition: color 0.6s;
+    transition: border 0.6s;
+    border-radius: 5px;
+    padding: 4px 6px;
 }
 
 .nav-left li a:hover,
 .nav-right li a:hover,
 .nav-left li a:active,
 .nav-right li a:active{
-    color: rgb(103, 104, 148);
-    border-bottom: 2px solid #668FFF;
+    color: #000;
+    border: 2px solid #668FFF;
+    border-radius: 5px;
+    padding: 4px 6px;
 }
 
 .nav-left,
@@ -149,14 +155,14 @@ header{
     padding-bottom: 10px;
 }
 
-.logo-container div:link,
-.logo-container div:visited{
+.logo-container div ion-icon:link,
+.logo-container div ion-icon:visited{
     color:rgb(160, 160, 160);
     transition: color 0.2s;
 }
 
-.logo-container div:hover,
-.logo-container div:active{
+.logo-container div ion-icon:hover,
+.logo-container div ion-icon:active{
     color: #000;
 }
 
