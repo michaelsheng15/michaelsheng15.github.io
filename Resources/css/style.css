@@ -19,6 +19,7 @@ html{
 .row{
     max-width:1140px;
     margin: 0 auto;
+    text-align: center;
 }
 
 section{
@@ -35,9 +36,29 @@ ion-icon{
     font-size: 25px;
 }
 
+.landing-text{
+    font-size: 16px;
+    color: rgb(29, 29, 29);
+    margin: 20px;
+}
+
 p{
     font-size: 16px;
     color: rgb(29, 29, 29);
+}
+
+h2{
+    color: rgb(36, 36, 36);
+    font-size: 225%;
+}
+
+hr{
+    width: 150px;
+    height: 3px;
+    border: solid 1px;
+    color: #668FFF;
+    background-color: #668FFF;
+    margin: 0 auto;
 }
 
 /*--------------------------------------*/
@@ -48,7 +69,6 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed
 
 }
 
@@ -156,7 +176,6 @@ header{
 }
 
 .logo-container div{
-    align-self: flex-end;
     padding: 0 25px;
     padding-bottom: 10px;
 }
