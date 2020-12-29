@@ -23,7 +23,7 @@ html{
 }
 
 section{
-    padding:80px 0;
+    padding:55px 0;
 }
 
 h1{
@@ -47,6 +47,16 @@ p{
     color: rgb(29, 29, 29);
 }
 
+.p-left{
+    font-size: 16px;
+    color: rgb(29, 29, 29);
+    text-align: left;
+    width: 800px;
+    margin-top: 15px;;
+    margin-left: 30%;
+    line-height: 185%;
+}
+
 h2{
     color: rgb(36, 36, 36);
     font-size: 225%;
@@ -60,6 +70,28 @@ hr{
     background-color: #668FFF;
     margin: 0 auto;
 }
+
+.textbox{
+    width:500px;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #668FFF;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #a1baff;
+}
+
 
 /*--------------------------------------*/
 /*HEADER*/
@@ -244,4 +276,15 @@ footer{
 .footer-icons div ion-icon:hover,
 .footer-icons div ion-icon:active{
     color: #000;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*ABOUT ME PAGE*/
+/*--------------------------------------------------------------------------------------------*/
+
+.about-me-h1{
+    color: #000;
+
 }
