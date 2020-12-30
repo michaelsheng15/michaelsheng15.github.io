@@ -71,6 +71,14 @@ hr{
     margin: 0 auto;
 }
 
+.faint{
+    width: 150px;
+    height: 3px;
+    border: solid 1px;
+    color: #ebebeb;
+    background-color: #ebebeb;
+    margin: 0 auto;
+}
 .textbox{
     width:500px;
 }
@@ -216,6 +224,9 @@ header{
 .logo-container div ion-icon:visited{
     color:rgb(160, 160, 160);
     transition: color 0.2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
 }
 
 .logo-container div ion-icon:hover,
