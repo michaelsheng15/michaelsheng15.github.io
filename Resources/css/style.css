@@ -52,7 +52,7 @@ p{
     color: rgb(29, 29, 29);
     text-align: left;
     width: 800px;
-    margin-top: 15px;;
+    margin-top: 10px;;
     margin-left: 30%;
     line-height: 185%;
 }
@@ -100,7 +100,23 @@ hr{
     background-color: #a1baff;
 }
 
+.hr-big{
+    width: 30%;
+    height: 3px;
+    border: solid 1px;
+    color: #668FFF;
+    background-color: #668FFF;
+    margin: 0 auto;
+}
 
+h4{
+    font-size: 133%;
+}
+
+.title-p{
+    margin-top: 15px;
+    color: rgb(90, 90, 90);
+}
 /*--------------------------------------*/
 /*HEADER*/
 /*--------------------------------------*/
@@ -220,42 +236,19 @@ header{
     padding-bottom: 10px;
 }
 
-.logo-container div ion-icon:link,
-.logo-container div ion-icon:visited{
+.logo-container div a:link,
+.logo-container div a:visited{
     color:rgb(160, 160, 160);
-    transition: color 0.2s;
+    transition: color 0.3s;
     text-decoration: none;
-    text-transform: uppercase;
     color: inherit;
 }
 
-.logo-container div ion-icon:hover,
-.logo-container div ion-icon:active{
+.logo-container div a:hover,
+.logo-container div a:active{
     color: #000;
 }
 
-
-/*--------------------------------------*/
-/*ABOUT ME*/
-/*--------------------------------------*/
-
-
-
-/*--------------------------------------*/
-/*PROJECTS*/
-/*--------------------------------------*/
-
-
-
-/*--------------------------------------*/
-/*GALLERY*/
-/*--------------------------------------*/
-
-
-
-/*--------------------------------------*/
-/*CONTACT*/
-/*--------------------------------------*/
 
 
 
@@ -278,14 +271,14 @@ footer{
     padding: 15px 10px;
 }
 
-.footer-icons div ion-icon:link,
-.footer-icons div ion-icon:visited{
+.footer-icons div a:link,
+.footer-icons div a:visited{
     color:rgb(160, 160, 160);
-    transition: color 0.2s;
+    transition: color 0.3s;
 }
 
-.footer-icons div ion-icon:hover,
-.footer-icons div ion-icon:active{
+.footer-icons div a:hover,
+.footer-icons div a:active{
     color: #000;
 }
 
@@ -295,7 +288,60 @@ footer{
 /*ABOUT ME PAGE*/
 /*--------------------------------------------------------------------------------------------*/
 
-.about-me-h1{
+.title-h1{
     color: #000;
+    font-size: 350%;
+}
 
+.eng-logo{
+    width: 35%;
+    height: auto;
+    margin-top: 25px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*EXPERIENCE PAGE*/
+/*--------------------------------------------------------------------------------------------*/
+.section-exp{
+    margin-bottom: 15%;
+    padding: 30px 
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn-container div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    transition: transform 0.3s;
+    margin: 0 30px;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+}
+
+.btn-container div img:hover{
+    transform: scale(1.10);
+}
+
+
+.exp-1,
+.exp-2,
+.exp-3{
+    position:relative;
+    text-align: center;
+}
+.center-1,
+.center-2,
+.center-3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    color: white;
+    font-weight: 100%;
 }
