@@ -1,2 +1,2 @@
 # michaelsheng.com
-Personal portfolio website developed using HTML, CSS and JavaScript.
+Personal website developed using HTML, CSS and JavaScript.
