@@ -23,7 +23,7 @@ html{
 }
 
 section{
-    padding:55px 0;
+    padding:50px 0;
 }
 
 h1{
@@ -52,10 +52,13 @@ p{
     color: rgb(29, 29, 29);
     text-align: left;
     width: 800px;
-    margin-top: 10px;;
-    margin-left: 30%;
     line-height: 185%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
+
+
 
 h2{
     color: rgb(36, 36, 36);
@@ -81,6 +84,9 @@ hr{
 }
 .textbox{
     width:500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .btn:link,
@@ -117,6 +123,8 @@ h4{
     margin-top: 15px;
     color: rgb(90, 90, 90);
 }
+
+
 /*--------------------------------------*/
 /*HEADER*/
 /*--------------------------------------*/
@@ -232,7 +240,7 @@ header{
 }
 
 .logo-container div{
-    padding: 0 25px;
+    padding: 0 15px;
     padding-bottom: 10px;
 }
 
@@ -282,6 +290,14 @@ footer{
     color: #000;
 }
 
+.footer-hr{
+    width: 400px;
+    height: 0.8px;
+    border: none;
+    color: #dadada;
+    background-color: #dadada;
+    margin: 0 auto;
+}
 
 
 /*--------------------------------------------------------------------------------------------*/
@@ -299,6 +315,13 @@ footer{
     margin-top: 25px;
 }
 
+.hobbies{
+    font-size: 16px;
+    color: rgb(29, 29, 29);
+    text-align: left;
+    width: 800px;
+    margin: 0 auto;
+}
 /*--------------------------------------------------------------------------------------------*/
 /*EXPERIENCE PAGE*/
 /*--------------------------------------------------------------------------------------------*/
@@ -345,3 +368,17 @@ footer{
     color: white;
     font-weight: 100%;
 }
+
+/*--------------------------------------------------------------------------------------------*/
+/*CONTACT PAGE*/
+/*--------------------------------------------------------------------------------------------*/
+
+section div p{
+    margin-top: 40px;
+}
+
+.contact-footer{
+    margin-top:450px;
+}
+
+
