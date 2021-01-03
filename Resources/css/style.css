@@ -58,7 +58,11 @@ p{
     margin-bottom: 15px;
 }
 
+.p-exp{
+    font-size: 16px;
+    color: rgb(29, 29, 29);
 
+}
 
 h2{
     color: rgb(36, 36, 36);
@@ -106,6 +110,8 @@ hr{
     background-color: #a1baff;
 }
 
+
+
 .hr-big{
     width: 30%;
     height: 3px;
@@ -113,6 +119,7 @@ hr{
     color: #668FFF;
     background-color: #668FFF;
     margin: 0 auto;
+    margin-bottom: 8px;
 }
 
 h4{
@@ -124,7 +131,15 @@ h4{
     color: rgb(90, 90, 90);
 }
 
+h5{
+    font-size: 190%;
+    color: #000;
+    
+}
 
+a{
+    text-decoration: none;
+}
 /*--------------------------------------*/
 /*HEADER*/
 /*--------------------------------------*/
@@ -148,6 +163,8 @@ header{
 
 .container-wrap{
     display: inline-flex;
+    z-index: -1;
+    position: relative;
     border: 3px solid #668FFF;
     background-color: #fff;
     border-radius: 15px;
@@ -373,12 +390,60 @@ footer{
 /*CONTACT PAGE*/
 /*--------------------------------------------------------------------------------------------*/
 
-section div p{
-    margin-top: 40px;
-}
+
 
 .contact-footer{
     margin-top:450px;
 }
 
 
+/*--------------------------------------------------------------------------------------------*/
+/*SUBPAGES*/
+/*--------------------------------------------------------------------------------------------*/
+
+.job-box{
+    border: 1px solid #668FFF;
+    border-radius: 5px;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+    margin-bottom: 50px;
+    transform: scale(1);
+    transition: transform 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-box:hover{
+    transform: scale(1.05);
+
+}
+
+.job-box h2{
+    align-self: flex-start;
+}
+.markham{
+    height: 200px;
+    width: auto;
+    margin-left: 100px;
+}
+
+.harness{
+    height: 200px;
+    width: auto;
+    margin-left:50px;
+}
+
+.job-descrip{
+    margin-left: 5%;
+}
+
+.btn-arrow:link,
+.btn-arrow:visited{
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+}
