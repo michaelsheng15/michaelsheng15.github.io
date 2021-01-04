@@ -206,7 +206,7 @@ header{
 .nav-left li a:active,
 .nav-right li a:active{
     color: #000;
-    border: 2px solid #43C0FF;
+    border-bottom: 3px solid #43C0FF;
     border-radius: 5px;
     padding: 4px 10px;
 }
