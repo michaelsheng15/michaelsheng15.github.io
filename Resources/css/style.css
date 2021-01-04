@@ -73,8 +73,8 @@ hr{
     width: 150px;
     height: 3px;
     border: solid 1px;
-    color: #668FFF;
-    background-color: #668FFF;
+    color: #43C0FF;
+    background-color: #43C0FF;
     margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ hr{
     font-weight: 300;
     text-decoration: none;
     border-radius: 10px;
-    background-color: #668FFF;
+    background-color: #43C0FF;
     color: #fff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
@@ -116,8 +116,8 @@ hr{
     width: 30%;
     height: 3px;
     border: solid 1px;
-    color: #668FFF;
-    background-color: #668FFF;
+    color: #43C0FF;
+    background-color: #43C0FF;
     margin: 0 auto;
     margin-bottom: 8px;
 }
@@ -144,7 +144,7 @@ a{
 /*HEADER*/
 /*--------------------------------------*/
 header{
-    background-image:  url(img/background1.svg);
+    background-image:  url(img/V11.svg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -165,7 +165,7 @@ header{
     display: inline-flex;
     z-index: -1;
     position: relative;
-    border: 3px solid #668FFF;
+    border: 3px solid #43C0FF;
     background-color: #fff;
     border-radius: 15px;
     align-items: center;
@@ -206,7 +206,7 @@ header{
 .nav-left li a:active,
 .nav-right li a:active{
     color: #000;
-    border: 2px solid #668FFF;
+    border: 2px solid #43C0FF;
     border-radius: 5px;
     padding: 4px 10px;
 }
@@ -402,7 +402,7 @@ footer{
 /*--------------------------------------------------------------------------------------------*/
 
 .job-box{
-    border: 1px solid #668FFF;
+    border: 1px solid #43C0FF;
     border-radius: 18px;
     width: 30%;
     height: 300px;
@@ -445,7 +445,7 @@ footer{
 .btn-arrow:visited{
     text-decoration: none;
     font-size: 40px;
-    color: #668FFF;
+    color: #43C0FF;
     transform: scale(1);
     transition: color 0.5s; 
     transition: transform 0.3s;
