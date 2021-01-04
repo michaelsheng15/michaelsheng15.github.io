@@ -271,9 +271,28 @@ header{
 
 .logo-container div a:hover,
 .logo-container div a:active{
-    color: #000;
+    color: #004D99;
 }
 
+.exp-landing{
+    display:flex;
+    justify-content: center;
+}
+
+.exp-landing img{
+    height: 130px;
+    width: auto;
+    margin: 20px 10px;
+
+    transform: scale(1);
+    transition: transform 0.3s;
+
+}
+
+.exp-landing img:hover{
+    transform: scale(1.2);
+
+}
 
 
 
