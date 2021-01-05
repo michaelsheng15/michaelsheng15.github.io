@@ -99,6 +99,7 @@ hr{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
+    font-size: 65%;
     text-decoration: none;
     border-radius: 10px;
     background-color: #004D99;
@@ -367,6 +368,8 @@ footer{
     display:flex;
     justify-content: center;
 }
+
+
 .hobbies-li{
     text-align: center;
     border: 2px solid #000;
