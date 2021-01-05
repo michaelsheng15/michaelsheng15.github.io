@@ -23,7 +23,8 @@ html{
 }
 
 section{
-    padding:50px 0;
+    padding:25px 0;
+    padding-top: 50px;
 }
 
 h1{
@@ -107,7 +108,7 @@ hr{
 
 .btn:hover,
 .btn:active{
-    background-color: #a1baff;
+    background-color: #004d99b7;
 }
 
 
@@ -358,6 +359,12 @@ footer{
     width: 800px;
     margin: 0 auto;
 }
+
+#mikey{
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
 /*--------------------------------------------------------------------------------------------*/
 /*EXPERIENCE PAGE*/
 /*--------------------------------------------------------------------------------------------*/
@@ -494,3 +501,4 @@ footer{
     width: auto;
     margin-left: 100px;
 }
+
