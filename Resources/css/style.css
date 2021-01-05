@@ -160,11 +160,12 @@ header{
     left: 0;
     right: 0;
     height: 100px;
+    z-index:9999;
+
 }
 
 .container-wrap{
     display: inline-flex;
-    z-index: -1;
     position: relative;
     border: 3px solid #004D99;
     background-color: #fff;
