@@ -353,12 +353,33 @@ footer{
     margin-top: 25px;
 }
 
-.hobbies{
+.hobbies,
+.hobbies-li{
     font-size: 16px;
     color: rgb(29, 29, 29);
     text-align: left;
     width: 800px;
     margin: 0 auto;
+    
+}
+
+.hobbies-box{
+    display:flex;
+    justify-content: center;
+}
+.hobbies-li{
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.hobbies-li:hover{
+    transform: scale(1.06);
+
 }
 
 #mikey{
