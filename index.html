@@ -22,6 +22,8 @@
         <link rel="shortcut icon" href="/Resources/img/faviconV1.ico" type="image/x-icon">
         <link rel="icon" href="/Resources/img/faviconV1.ico" type="image/x-icon">
 
+        <script src="js/script.js"></script>
+
         <title>Michael Sheng</title>
         
     </head>
@@ -29,7 +31,7 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <div class="container-wrap">
+                    <div class="container-wrap" id="header">
                         <div>                            
                             <ul class="nav-left">
                                 <li><a href="AboutMe.html">ABOUT ME</a></li>
@@ -123,19 +125,28 @@
                 <hr>
 
                 <p class="landing-text">
-                    A quick peek into my life! &#128248;
+                    Photos from my adventures around the world! &#127758;
                 </p>
-                <div class="exp-landing">
-                    <div>
-                        <img src="">
+                
+                <div class="slider-holder">
+                    <span id="slider-image-1"></span>
+                    <span id="slider-image-2"></span>
+                    <span id="slider-image-3"></span>
+                    <div class="image-holder">
+                        <img src="Resources/img/P4.JPG" alt="Toronto, Ontario" class="slider-image" />
+                        <img src="Resources/img/P5.JPG" alt="MetLife Stadium" class="slider-image" />
+                        <img src="Resources/img/P7.jpg" alt="Venice, Italy" class="slider-image" />
                     </div>
-                    <div>
-                        <img src="">
-                    </div>
-                    <div>
-                        <img src="">
+                    <div class="button-holder">
+                        <a href="#slider-image-1" class="slider-change"></a>
+                        <a href="#slider-image-2" class="slider-change"></a>
+                        <a href="#slider-image-3" class="slider-change"></a>
                     </div>
                 </div>
+
+              
+
+
                 <a class="btn" href="gallery.html">View Gallery</a>
             </div>
         </section>
