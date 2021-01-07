@@ -651,7 +651,7 @@ footer{
     transform:translate(-50%,-50%) scale(0);
     background:#fff;
     width:600px;
-    height:250px;
+    height:320px;
     z-index:2;
     text-align:center;
     padding:20px;
@@ -664,7 +664,7 @@ footer{
 #modal-btn  {
     position:absolute;
     right:250px;
-    top:200px;
+    top:250px;
     color:#fff;
     text-align:center;
     box-shadow: none;
