@@ -108,17 +108,14 @@ hr{
     border-radius: 10px;
     background-color: #004D99;
     color: #fff;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
     box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
     transform: scale(1);
-    transition: transform 0.3s;
-
-
+    transition: transform 0.3s, background-color 0.3s;
 }
 
 .btn:hover,
 .btn:active{
-    background-color: #004d99ec;
+    background-color: #0a5db1ec;
     transform: scale(1.05);
 
 }
@@ -207,13 +204,13 @@ header{
 .nav-right li a:visited{
     color:rgb(150, 150, 150);
     font-weight: 50%;
+    font-size: 18px;
     text-decoration: none;
     border: 2px solid transparent;
-    transition: color 0.6s;
-    transition: border 0.6s;
     border-radius: 5px;
     padding: 4px 10px;
-    color: inherit;
+    transform: scale(1);
+    transition: color 0.3s, font-size 0.3s;
 
 }
 
@@ -222,6 +219,9 @@ header{
     color: #004D99;
     border-radius: 5px;
     padding: 4px 10px;
+    transform: scale(1.5);
+    font-size: 18.1px;
+
 }
 
 .nav-left,
@@ -247,15 +247,16 @@ header{
 .header-container{
     width: 600px;
     height: 400px;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
-
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.308), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+    border: 5px solid #fff;
 }
 
 .img-container{
     text-align: center;
+
 }
 
 .img-container img{
@@ -266,7 +267,8 @@ header{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 350px;
+    top: 25px;
+    z-index: 500;
 }
 
 .logo-container div{
@@ -311,7 +313,7 @@ header{
 .slider-holder{
     width: 800px;
     height: 400px;
-    border: 2px solid #004D99;
+    border: 5px solid #fff;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -319,6 +321,8 @@ header{
     margin-bottom: 20px;
     text-align: center;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.199), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+
 }
        
 .image-holder{
@@ -378,7 +382,18 @@ header{
     background-color: #fff;
 }
 
+.me-container{
+    height: 325px;
+}
+#me{
+    width: 591px;
+    height: 330px;
+    object-fit: cover;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 
+}
 
 
 /*--------------------------------------*/
@@ -471,6 +486,9 @@ footer{
     height: 500px;
     width: auto;
     border-radius: 10px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(83, 83, 83, 0.2), 0 6px 20px 0 rgba(83, 83, 83, 0.19);
+
 }
 
 #about-me-head{
@@ -539,7 +557,7 @@ footer{
 /*--------------------------------------------------------------------------------------------*/
 
 .job-box{
-    border: 1px solid #004D99;
+    border: 3px solid rgb(231, 231, 231);
     border-radius: 18px;
     width: 30%;
     height: 300px;
