@@ -1,9 +1,3 @@
-$(window).scroll(function() {     
-    var scroll = $(window).scrollTop();
-    if (scroll > 0) {
-        $("#header").addClass("active");
-    }
-    else {
-        $("#header").removeClass("active");
-    }
-});
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }

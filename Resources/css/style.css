@@ -120,8 +120,6 @@ hr{
 
 }
 
-
-
 .hr-big{
     width: 30%;
     height: 3px;
@@ -143,7 +141,7 @@ h4{
 
 h5{
     font-size: 190%;
-    color: #000;
+    color: rgb(26, 26, 26);
     
 }
 
@@ -202,7 +200,7 @@ header{
 .nav-right li a:link,
 .nav-left li a:visited,
 .nav-right li a:visited{
-    color:rgb(150, 150, 150);
+    color:rgb(131, 131, 131);
     font-weight: 50%;
     font-size: 18px;
     text-decoration: none;
@@ -423,7 +421,7 @@ footer{
 
 .footer-icons div a:hover,
 .footer-icons div a:active{
-    color: #000;
+    color: #004D99;
 }
 
 .footer-hr{
@@ -469,7 +467,7 @@ footer{
 
 .hobbies-li{
     text-align: center;
-    border: 2px solid #000;
+    border: 2px solid rgb(92, 92, 92);
     border-radius: 5px;
     margin: 20px 10px;
     box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
@@ -530,9 +528,7 @@ footer{
     position:relative;
     text-align: center;
 }
-.center-1,
-.center-2,
-.center-3{
+.center-1{
     position:absolute;
     top: 50%;
     left: 50%;
@@ -631,3 +627,55 @@ footer{
     margin-left: 100px;
 }
 
+
+/*--------------------------------------------------------------------------------------------*/
+/*MODAL BOX*/
+/*--------------------------------------------------------------------------------------------*/
+
+.popup .overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+  }
+  
+  .popup .content {
+    position:absolute;
+    border-radius: 15px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background:#fff;
+    width:600px;
+    height:250px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+  }
+  
+  #modal-p{
+      margin-top: 20px;
+  }
+
+#modal-btn  {
+    position:absolute;
+    right:250px;
+    top:200px;
+    color:#fff;
+    text-align:center;
+    box-shadow: none;
+  }
+  
+  .popup.active .overlay {
+    display:block;
+  }
+  
+  .popup.active .content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
+  

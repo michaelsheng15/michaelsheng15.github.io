@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
         <meta charset="UTF-8">
 
         <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+        <script type="text/javascript" src="Resources/script.js"></script>
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
-
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"> 
-
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="shortcut icon" href="/Resources/img/favicon-FINAL.ico" type="image/x-icon">
         <link rel="icon" href="/Resources/img/favicon-FINAL.ico" type="image/x-icon">
+
+
         <title>Michael Sheng</title>
-        
     </head>
 
     <body>
@@ -43,13 +42,39 @@
                         <div>
                             <ul class="nav-right">
                                 <li><a href="gallery.html">GALLERY</a></li>
-                                <li><a href="contact.html">CONTACT</a></li>
+                                <li><a href="#" onclick="togglePopup()">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </section>
+
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+              <a class="btn" href="#" id="modal-btn" onclick="togglePopup()">Close</a>
+                <p id="modal-p">This summer, I am interested in positions related to software development and project management. <br> <br>For any questions or opportunities, feel free to contact me.</p>
+
+                <div class="footer-icons">
+                    <div>
+                        <a href="" target="_blank"><ion-icon name="document-outline"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.linkedin.com/in/michaeljsheng/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+    
+                    <div>
+                        <a href="https://github.com/michaelsheng15" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+    
+                    <div>
+                        <a href="mailto: michsheng@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="section-top">
             <div class="row animate__animated animate__fadeInDown">
@@ -62,7 +87,7 @@
         </section>
 
         <section>
-            <div class="exp-container animate__animated animate__fadeIn">
+            <div class="animate__animated animate__fadeIn">
                 
                 <a href="#">
                     <div class="job-box">
