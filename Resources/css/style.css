@@ -24,7 +24,6 @@ html{
 
 .section-top{
     padding:25px 0;
-    padding-top: 50px;
 }
 
 section{
@@ -32,8 +31,7 @@ section{
 }
 
 h1{
-    font-size: 400%;
-    font-weight: 200%;
+    font-size: 350%;
     color: #fff;
 }
 
@@ -48,12 +46,12 @@ ion-icon{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(29, 29, 29);
 }
 
 .p-left{
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(29, 29, 29);
     text-align: left;
     width: 800px;
@@ -64,7 +62,7 @@ p{
 }
 
 .p-exp{
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(29, 29, 29);
 
 }
@@ -121,7 +119,7 @@ hr{
 }
 
 .hr-big{
-    width: 30%;
+    width: 25%;
     height: 3px;
     border: solid 1px;
     color: #004D99;
@@ -178,8 +176,8 @@ header{
     border-radius: 15px;
     align-items: center;
     margin-top: 20px;
-    width: 30%;
-    height: 70%;
+    width: 550px;
+    height: 55%;
 }
 
 .nav-container div {
@@ -191,7 +189,7 @@ header{
 .nav-left li,
 .nav-right li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 7px;
 }
 
 .nav-left li a:link,
@@ -200,13 +198,12 @@ header{
 .nav-right li a:visited{
     color:rgb(131, 131, 131);
     font-weight: 50%;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     border: 2px solid transparent;
     border-radius: 5px;
     padding: 4px 10px;
-    transform: scale(1);
-    transition: color 0.3s, font-size 0.3s;
+    transition: color 0.3s;
 }
 
 .nav-left li a:hover,
@@ -214,8 +211,7 @@ header{
     color: #004D99;
     border-radius: 5px;
     padding: 4px 10px;
-    transform: scale(1.5);
-    font-size: 18.1px;
+
 }
 
 .nav-left,
@@ -225,7 +221,7 @@ header{
 
 .logo img{
     height: auto;
-    width: 60px;
+    width: 40px;
     padding-top:8px;
 }
 
@@ -239,8 +235,8 @@ header{
 }
 
 .header-container{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 360px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     margin: 0 auto;
@@ -261,13 +257,13 @@ header{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 25px;
+    bottom: 20px;
     z-index: 500;
 }
 
 .logo-container div{
     padding: 0 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .logo-container div a:link,
@@ -299,13 +295,13 @@ header{
 }
 
 .exp-landing img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
 .slider-holder{
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     border: 5px solid #fff;
     border-radius: 30px;
     margin-left: auto;
@@ -336,7 +332,7 @@ header{
     padding: 0px;
     position: relative;
     width: 800px;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
        
@@ -355,14 +351,14 @@ header{
        
 .button-holder{
     position: relative;
-    top: -40px;
+    top: -140px;
 }
        
 .slider-change{
     display: inline-block;
     margin: 0 10px;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: rgb(221, 221, 221);
     transform: scale(1);
@@ -379,8 +375,8 @@ header{
 }
 
 #me{
-    width: 591px;
-    height: 330px;
+    width: 491px;
+    height: 290px;
     object-fit: cover;
     z-index: 1;
     border-top-left-radius: 15px;
@@ -433,7 +429,7 @@ footer{
 
 .title-h1{
     color: #000;
-    font-size: 350%;
+    font-size: 270%;
 }
 
 .eng-logo{
@@ -473,7 +469,7 @@ footer{
 }
 
 #mikey{
-    height: 500px;
+    height: 300px;
     width: auto;
     border-radius: 10px;
     border: 3px solid #fff;
@@ -489,7 +485,7 @@ footer{
 /*EXPERIENCE PAGE*/
 /*--------------------------------------------------------------------------------------------*/
 .section-exp{
-    margin-bottom: 15%;
+    margin-bottom: 1%;
     padding: 30px 
 }
 .btn-container{
@@ -499,8 +495,8 @@ footer{
 }
 
 .btn-container div img{
-    width: 300px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
     border-radius: 15%;
     background-size: cover;
     background-position: center;
@@ -543,7 +539,7 @@ footer{
 .job-box{
     border: 3px solid rgb(231, 231, 231);
     border-radius: 18px;
-    width: 30%;
+    width: 50%;
     height: 300px;
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
