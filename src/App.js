@@ -15,19 +15,16 @@ class App extends Component {
 
   render() {
     let routes = (
-      <HashRouter basename={process.env.PUBLIC_URL}>
-        <Route exact path="/home" component={MainCard}/>
+      <HashRouter>
+        <Route exact path="/" component={MainCard}/>
         <Route exact path="/experience" component={ExperienceCard} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/about-me" component={AboutMe} />
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
       </HashRouter>
     );
 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <div>{routes}</div>
       </BrowserRouter>
     );
