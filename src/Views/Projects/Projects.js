@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
-import NavCard from "../Components/NavCard";
-import "./Views.css";
-import DiceBlitz from "../img/DiceBlitz.png";
-import Site from "../img/Site.png";
-import Sort from "../img/Sort.png";
-import ind from "../img/ind.png";
-import Cooky from "../img/cooky.png";
+import NavCard from "../../Components/NavCard";
+import "../Views.css";
+import DiceBlitz from "../../img/DiceBlitz.png";
+import Site from "../../img/Site.png";
+import Sort from "../../img/Sort.png";
+import ind from "../../img/ind.png";
+import Cooky from "../../img/cooky.png";
 
 
 const Projects = () => {
@@ -91,7 +91,7 @@ const Projects = () => {
               </div>
             </Col>
             <Col lg={5} className="img-col">
-                <img src={Sort} className='sort'/>
+              <img src={Sort} className='sort' />
             </Col>
           </Row>
         </a>
@@ -111,7 +111,7 @@ const Projects = () => {
               </div>
             </Col>
             <Col lg={5} className="img-col">
-                <img src={ind} className='sort'/>
+              <img src={ind} className='sort' />
             </Col>
           </Row>
         </a>

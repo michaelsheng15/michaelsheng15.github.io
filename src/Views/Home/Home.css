@@ -31,8 +31,18 @@
 }
 
 .body-text {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0px 0px 6px;
+}
+
+.resume-text{
+  font-size: 15px;
+  margin: 15px 0px 6px;
+}
+
+.resume-word{
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .button-container {

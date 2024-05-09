@@ -1,4 +1,4 @@
-import MainCard from "./Components/Home";
+import MainCard from "./Views/Home/Home";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
@@ -6,9 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Redirect, HashRouter } from "react-router-dom";
-import ExperienceCard from "./Views/Experience";
-import Projects from "./Views/Projects";
-import AboutMe from "./Views/AboutMe";
+import ExperienceCard from "./Views/Experience/Experience";
+import Projects from "./Views/Projects/Projects";
+import AboutMe from "./Views/About/AboutMe";
 
 class App extends Component {
 
@@ -31,7 +31,7 @@ class App extends Component {
 
     let routes = (
       <Switch>
-        <Route exact path="/" component={MainCard}/>
+        <Route exact path="/" component={MainCard} />
         <Route exact path="/experience" component={ExperienceCard} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/about" component={AboutMe} />

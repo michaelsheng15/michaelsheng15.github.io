@@ -1,11 +1,9 @@
 import React from "react";
 import "./Home.css";
-import memoji from "../img/memoji.png";
-import NavCard from "./NavCard";
+import NavCard from "../../Components/NavCard";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-import { AiFillFileMarkdown } from "react-icons/ai";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 
@@ -31,6 +29,10 @@ const MainCard = () => {
               Learn More
             </button>
           </Link>
+
+          <p className="resume-text">
+            Check out my <span className="resume-word">resume</span>!
+          </p>
 
 
           <div className="button-container">
@@ -76,20 +78,9 @@ const MainCard = () => {
               </button>
             </IconContext.Provider>
 
-            <IconContext.Provider
-              value={{
-                color: "grey",
-                className: "button-scale",
-                border: "none",
-              }}
-            >
-              <button className="button-icon">
-                <a target="_blank" href="null" rel="noreferrer">
-                  <AiFillFileMarkdown className="logo" />
-                </a>
-              </button>
-            </IconContext.Provider>
           </div>
+
+
 
         </div>
       </div>

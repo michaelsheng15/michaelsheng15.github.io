@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-import NavCard from "../Components/NavCard";
+import NavCard from "../../Components/NavCard";
 import "./AboutMe.css";
-import uw2 from "../img/uw2.png";
+import uw2 from "../../img/uw2.png";
 
 import React from "react";
 import Slider from "react-slick";
@@ -35,7 +35,7 @@ const AboutMe = () => {
 
 
 
-        
+
       </Container>
     </div>
   );

@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-import NavCard from "../Components/NavCard";
-import "./Views.css";
-import yrlogo1 from "../img/yrlogo1.png";
-import harness from "../img/harness.png";
-import de from "../img/delogo.png";
-import ld from "../img/ld.png";
-import open from "../img/open.webp";
-import scrawlr from "../img/scrawlr.jpeg";
+import NavCard from "../../Components/NavCard";
+import "../Views.css";
+import yrlogo1 from "../../img/yrlogo1.png";
+import harness from "../../img/harness.png";
+import de from "../../img/delogo.png";
+import ld from "../../img/ld.png";
+import open from "../../img/open.webp";
+import scrawlr from "../../img/scrawlr.jpeg";
 
 
 
@@ -26,7 +26,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={5} className="img-col">
-            <img src={scrawlr} className='scrawlr'/>
+            <img src={scrawlr} className='scrawlr' />
           </Col>
         </Row>
       </div>
@@ -39,7 +39,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={5} className="img-col">
-            <img src={open} className='open'/>
+            <img src={open} className='open' />
           </Col>
         </Row>
       </div>
@@ -52,7 +52,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={5} className="img-col">
-            <img src={ld} className='ld'/>
+            <img src={ld} className='ld' />
           </Col>
         </Row>
       </div>
@@ -65,7 +65,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={5} className="img-col">
-            <img src={de} className='de'/>
+            <img src={de} className='de' />
           </Col>
         </Row>
       </div>
@@ -78,7 +78,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={5} className="img-col">
-            <img src={yrlogo1} className='yr'/>
+            <img src={yrlogo1} className='yr' />
           </Col>
         </Row>
       </div>
@@ -91,7 +91,7 @@ const ExperienceCard = () => {
             </div>
           </Col>
           <Col lg={4} className="img-col">
-            <img src={harness}/>
+            <img src={harness} />
           </Col>
         </Row>
       </div>

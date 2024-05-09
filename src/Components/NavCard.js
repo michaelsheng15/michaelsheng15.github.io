@@ -22,11 +22,11 @@ const NavCard = () => {
             <p className="nav-label">Experience 🚀</p>
           </Link>
         </Col>
-        <Col className="nav-col">
+        {/* <Col className="nav-col">
           <Link to="/projects" style={{ textDecoration: "none" }}>
             <p className="nav-label">Projects 🔧</p>
           </Link>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
