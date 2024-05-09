@@ -98,3 +98,16 @@
 .de{
   width: 1o0px;
 }
+
+.ld{
+  width: 70%;
+}
+
+.open{
+  width:50%;
+}
+
+.scrawlr{
+  width: 70%;
+  border-radius: 5px;
+}

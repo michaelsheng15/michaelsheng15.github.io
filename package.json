@@ -1,5 +1,5 @@
 {
-  "homepage": "http://michaelsheng15.github.io/",
+  "homepage": "http://michaelsheng15.github.io",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
+    "nodemon": "^3.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",

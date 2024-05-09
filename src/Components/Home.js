@@ -17,15 +17,22 @@ const MainCard = () => {
       <div className="outline">
         <div className="text-card">
           <h1 className="name-text">Michael Sheng</h1>
-          <p className="sub-text">Student | Developer | Frisbee Enthusiast</p>
           <p className="body-text">
-            An aspiring software developer studying Management Engineering{" "}
+            I'm a software developer studying Management Engineering{" "}
             <font color="#9900FF">@UWaterloo</font>.🎒
           </p>
           <p className="body-text">
-            This summer, I interned <font color="#e89211">@Digital Extremes</font> as
-            a Full Stack Web Developer building <font color="#0055FF">Warframe.com</font>. 💻
+            This winter, I interned <font color="#3355FF">@Scrawlr</font> as
+            a Backend Developer.
           </p>
+
+          <Link to="/experience" style={{ textDecoration: "none" }}>
+            <button className="learn-more-button">
+              Learn More
+            </button>
+          </Link>
+
+
           <div className="button-container">
             <IconContext.Provider
               value={{ color: "grey", className: "button-scale" }}
@@ -83,10 +90,8 @@ const MainCard = () => {
               </button>
             </IconContext.Provider>
           </div>
+
         </div>
-        <Link className="photo-card" to="/about-me">
-          <img className="memoji" src={memoji} alt="Me!" />
-        </Link>
       </div>
     </div>
   );

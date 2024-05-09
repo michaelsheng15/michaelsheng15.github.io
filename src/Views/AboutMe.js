@@ -33,19 +33,7 @@ const AboutMe = () => {
           </p>
         </Row>
 
-        <Row className="row-about">
-          <h3>Education</h3>
-          <p className="p">
-            I am currently a management engineering student at the University of
-            Waterloo. Management engineering is a unique, interdisciplinary
-            program primarily focusing on computer science, industrial
-            engineering, and management sciences to optimize processes in any
-            organization. Being the only program of its kind in Canada,
-            management engineering produces a degree suitable for a career in
-            any industry.
-          </p>
-          <img src={uw2} className="uw" />
-        </Row>
+
 
         
       </Container>

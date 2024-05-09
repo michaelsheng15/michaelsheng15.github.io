@@ -8,15 +8,15 @@ const NavCard = () => {
     <Container className="screen">
       <Row className="row">
         <Col className="nav-col">
-          <Link to="/home" style={{ textDecoration: "none" }}>
+          <Link to="/" style={{ textDecoration: "none" }}>
             <p className="nav-label">Home 🏡</p>
           </Link>
         </Col>
-        <Col className="nav-col">
-          <Link to="/about-me" style={{ textDecoration: "none" }}>
+        {/* <Col className="nav-col">
+          <Link to="/about" style={{ textDecoration: "none" }}>
             <p className="nav-label">About Me 👨‍💻</p>
           </Link>
-        </Col>
+        </Col> */}
         <Col className="nav-col">
           <Link to="/experience" style={{ textDecoration: "none" }}>
             <p className="nav-label">Experience 🚀</p>

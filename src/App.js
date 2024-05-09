@@ -14,18 +14,35 @@ class App extends Component {
 
 
   render() {
+    // let routes = (
+    //   <HashRouter>
+    //     <Route exact path="/" component={MainCard}/>
+    //     <Route exact path="/experience" component={ExperienceCard} />
+    //     <Route exact path="/projects" component={Projects} />
+    //     <Route exact path="/about-me" component={AboutMe} />
+    //   </HashRouter>
+    // );
+
+    // return (
+    //   <BrowserRouter>
+    //     <div>{routes}</div>
+    //   </BrowserRouter>
+    // );
+
     let routes = (
-      <HashRouter>
+      <Switch>
         <Route exact path="/" component={MainCard}/>
         <Route exact path="/experience" component={ExperienceCard} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/about-me" component={AboutMe} />
-      </HashRouter>
-    );
+        <Route exact path="/about" component={AboutMe} />
+      </Switch>
+    )
 
     return (
       <BrowserRouter>
-        <div>{routes}</div>
+        <div className="App">
+          {routes}
+        </div>
       </BrowserRouter>
     );
   }
